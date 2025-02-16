@@ -1,4 +1,3 @@
-import './styles.css';
 document.addEventListener("DOMContentLoaded", function () {
     const playBtn = document.getElementById("play-btn");
     const gameContainer = document.getElementById("game-container");
