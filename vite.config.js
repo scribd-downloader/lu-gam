@@ -1,12 +1,22 @@
-import { defineConfig } from "vite";
-import sitemap from "vite-plugin-sitemap";
+import { defineConfig } from 'vite';
+import Sitemap from 'vite-plugin-sitemap';
+import Pages from 'vite-plugin-pages';
 
 export default defineConfig({
   plugins: [
-    sitemap({
-      hostname: "https://ludoking.pro", // Replace with your actual domain
-      outDir: "dist", // Ensure it matches your build output folder
-      routes: ["/"], // Only include the main page
+    Pages(),
+    Sitemap({
+      hostname: 'https://ludoking.pro', // Your website URL
+      routes: async () => {
+        return [
+          '/',
+          '/about-us',
+          '/privacy-policy',
+          '/terms-of-service',
+          '/contact-us',
+          // Add other static routes if needed
+        ];
+      },
     }),
   ],
 });
