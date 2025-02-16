@@ -30,26 +30,26 @@ body, html {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
 }
 .background-img{
-    background-image: url('./images/Ludo\ Features.webp');
+    background-image: url('./images/Ludo Features.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .background-featured{
-    background-image: url('./images/Ludo\ King\ Pro\ bg.webp');
+    background-image: url('./images/Ludo King Pro bg.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .ludo-features{
-    background-image: url('./images/ludo\ king\ game\ features.webp');
+    background-image: url('./images/ludo king game features.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
 }
 .ultimate-board{
-    background-image: url('./images/The\ Ultimate\ Multiplayer\ Board\ Game.webp');
+    background-image: url('./images/The Ultimate Multiplayer Board Game.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
