@@ -30,26 +30,26 @@ body, html {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
 }
 .background-img{
-    background-image: url('https://ludoking.pro/images/Ludo%20Features.webp');
+    background-image: url('https://ludogamepro.netlify.app/images/Ludo%20Features.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .background-featured{
-    background-image: url('https://ludoking.pro/images/Ludo%20King%20Pro%20bg.webp');
+    background-image: url('https://ludogamepro.netlify.app/images/Ludo%20King%20Pro%20bg.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .ludo-features{
-    background-image: url('https://ludoking.pro/images/ludo%20king%20game%20features.webp');
+    background-image: url('https://ludogamepro.netlify.app/images/ludo%20king%20game%20features.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
 }
 .ultimate-board{
-    background-image: url('https://ludoking.pro/images/The%20Ultimate%20Multiplayer%20Board%20Game.webp');
+    background-image: url('https://ludogamepro.netlify.app/images/The%20Ultimate%20Multiplayer%20Board%20Game.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
